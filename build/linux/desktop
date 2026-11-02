@@ -1,0 +1,13 @@
+[Desktop Entry]
+Version=1.0
+Name=My Product
+Comment=A Sortino_Golang_Wails application
+# The Exec line includes %u to pass the URL to the application
+Exec=/usr/local/bin/Sortino_Golang_Wails.exe %u
+Terminal=false
+Type=Application
+Icon=Sortino_Golang_Wails.exe
+Categories=Utility;
+StartupWMClass=Sortino_Golang_Wails.exe
+
+ 

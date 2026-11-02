@@ -1,0 +1,22 @@
+/*
+  Estilos globales (afectan a toda la página).
+  Los estilos propios de cada pantalla están dentro de sus componentes .svelte.
+*/
+
+html {
+    background-color: rgb(27, 38, 54); /* mismo color que BackgroundColour en main.go */
+    text-align: center;
+    color: white;
+}
+
+body {
+    margin: 0;
+    color: white;
+    /* Fuentes del sistema: no hace falta empaquetar ninguna. */
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", sans-serif;
+}
+
+#app {
+    min-height: 100vh;
+    text-align: center;
+}
