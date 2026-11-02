@@ -26,8 +26,7 @@ frontend/
   src/App.svelte       pantalla principal (estado + llamadas a Go)
   src/lib/             StockTable.svelte (tabla) y format.js (formatos)
   bindings/            generado por Wails: no se edita a mano
-build/                 configuración de empaquetado (la plantilla incluye
-                       carpetas de otras plataformas que Windows no usa)
+build/                 configuración de empaquetado para Windows
 ```
 
 **Regla de dependencias:** `main` → `stocks_service` → `internal/*`. Los
