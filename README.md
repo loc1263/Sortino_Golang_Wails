@@ -4,6 +4,8 @@ App de escritorio para Windows que baja un año de precios de las acciones del
 S&P 500 desde Yahoo Finance, calcula indicadores de riesgo/retorno y muestra
 las 10 mejores en una tabla, con exportación a CSV.
 
+![Pantalla principal](docs/screenshot.png)
+
 Sirve como ejemplo de una app Wails pequeña pero ordenada: lógica separada de
 la interfaz, concurrencia en Go, eventos del backend al frontend, pruebas y
 un frontend por componentes.
